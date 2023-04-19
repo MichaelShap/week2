@@ -62,7 +62,7 @@
 # print(fact)
 # # заданное число 4 - в этом случае умножит 1*2*3*4 = 24
 
-# num_fact = int(input('vvedite num: '))
+num_fact = int(input('vvedite num: '))
 # fact = 1
 # for i in range(1, num_fact + 1):
 #     fact += i
@@ -107,14 +107,13 @@
 #     i += 1
 # print(list)
 
-list = []
-i = 1
-while i <= 5:
-    if i % 3 == 0:
-        i += 1
-        continue
-    list.append(i)
-    i += 1
-print(list)
+# list = []
+# i = 1
+# while i <= 5:
+#     if i % 3 == 0:
+#         i += 1
+#         continue
+#     list.append(i)
+#     i += 1
+# print(list)
 
-123
