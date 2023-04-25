@@ -47,7 +47,7 @@
 # names = ['Nurzada', 'Jarkynai', 'Jenya']
 # for i in enumerate(names):
 #     print(i)
-#
+
 
 # list_1 = []
 # for i in range(1, 1000):
@@ -62,7 +62,7 @@
 # print(fact)
 # # заданное число 4 - в этом случае умножит 1*2*3*4 = 24
 
-num_fact = int(input('vvedite num: '))
+# num_fact = int(input('vvedite num: '))
 # fact = 1
 # for i in range(1, num_fact + 1):
 #     fact += i
@@ -116,4 +116,28 @@ num_fact = int(input('vvedite num: '))
 #     list.append(i)
 #     i += 1
 # print(list)
+
+
+# city = "canada"
+# city_list = list("_" * len(city))
+#
+# while "_" in city_list:
+#     letter = input("Введите букву: ")
+#
+#     if not letter or len(letter) > 1:
+#         print(" Введите одну букву.")
+#         continue
+#
+#     if letter.lower() in city:
+#         for index, value in enumerate(city):
+#             if letter.lower() == value:
+#                 city_list[index] = letter.lower()
+#         print("".join(city_list))
+#     else:
+#         print("Такой буквы в слове нет.")
+#
+# print("Вы угадали! Это был город", city)
+
+
+
 

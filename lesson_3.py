@@ -7,8 +7,8 @@
 # print(lists)
 
 # text = '1 str befor 1 str afte 2 str nrfor 2 str after'
-# # print(set(text))
-# # print(text.split())
+# print(set(text))
+# print(text.split())
 # set_text = (set(text.split()))
 # print(' '.join(set_text))
 
@@ -84,11 +84,11 @@ from copy import deepcopy
 # # просто объединяет 2 сета, пересекающиеся значения появятся 1 раз. Он не меняет ни один сет
 # а выводит новый сет
 
-# set_text = {1, 3, 8}
-# new_set = {1, 2, 3}
-# set_text.update(new_set)
-# print(new_set)
-# print(set_text)
+set_text = {1, 3, 8}
+new_set = {1, 2, 3}
+set_text.update(new_set)
+print(new_set)
+print(set_text)
 # # здесь апдейт - он меняет сет, по этому сначал метод применяем, потом только печатаем
 
 # set_text = {1, 3, 8}
@@ -96,7 +96,7 @@ from copy import deepcopy
 # print(set_text.isdisjoint(new_set))
 # # если 2 сета обсолютно не имеют пересечений, то Тру. Если есть хоть 1 пересечение то Фолс
 
-set_text = {1, 3, 2}
-new_set = {1, 2, 3}
-print(set_text.issubset(new_set))
+# set_text = {1, 3, 2}
+# new_set = {1, 2, 3}
+# print(set_text.issubset(new_set))
 # не объясню словами)))
